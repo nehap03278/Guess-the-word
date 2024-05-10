@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background {
+    background-image: linear-gradient(#7ae5fa, #74e3c3);
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+
+.cards {
+    background-color: transparent;
+    border-color: #05c7f7;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 15px;
+    width: 35vw;
+    font-family: "playfairDisplay";
+}
+
+.image {
+    height: 45vh;
+    background-size: cover;
+    width: 50vw;
+    margin: 10px;
+}
+
+.card-heading {
+    color: #14a7e0;
+    font-weight: bold;
+}
+
+.card-para {
+    color: #14a7e0;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.inner-background {
+    background-image: url("https://images.template.net/115207/free-plain-pastel-background-ydeis.jpg");
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+}
+
+.inner-heading {
+    font-family: "playfairDisplay";
+    color: #6b3c06;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.inner-para {
+    font-family: "playfairDisplay";
+    color: #6b3c06;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.user-input {
+    border-width: 1px;
+    border-radius: 6px;
+    height: 40px;
+    width: 40vw;
+    margin: 10px;
+}
+
+
+
+.inner-card {
+    background-image: linear-gradient(#f5e0c9, #decbb6);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 15px;
+    width: 40vw;
+    font-family: "playfairDisplay";
+    color: black;
+
+}
+
+.win {
+    font-family: "playfairDisplay";
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.loose {
+    font-family: "playfairDisplay";
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
